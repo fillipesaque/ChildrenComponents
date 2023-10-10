@@ -1,0 +1,40 @@
+.ProfileContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    height: 90vh;
+    width: 55vh;
+    margin-top: 20px;
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.imgContainer hr {
+    width: 55vh;
+    border-color: deepskyblue;
+}
+
+
+
+
+  @media(max-width:1024px){
+    .ProfileContainer{
+        height: 95vh;
+    }
+  }

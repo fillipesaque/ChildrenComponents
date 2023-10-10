@@ -1,0 +1,11 @@
+.DescriçaoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px;
+}
+.DescriçaoContainer hr {
+    width: 55vh;
+    border-color: deepskyblue;
+}
